@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#container1 {
+    background-color: #F6F6F6;
+}
+.main-header {
+    background-color: black;
+    width: 100%;
+    height: 41px;
+    margin-top: 1px;
+    color: white;
+}
+.main-header img {
+    width: 90px;
+    float: left;
+    margin: 8px 0px 0px;
+}
+.login {
+    margin: 6px 0px 0px 5px;
+    float: left;
+    font-size: 13px;
+    line-height: 30px;
+}
+.login:hover {
+    border-bottom: 2px solid #3289BB;
+    width: 100px;
+}
+.login img {
+    width: 20px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.vl {
+    border-left: 0.1px solid #8c8c8c;
+    height: 41px;
+    float: left;
+    margin-left: 20px;
+}
+.main-header-content {
+    margin: 0px 100px 0px 100px;
+}
+.clear {
+    clear: both;
+}
+nav {
+    float: right;
+}
+
+nav ul li{
+    float: left;
+    margin-right: 10px;
+    list-style: none;
+    font-size: 13px;
+    margin-top: 12px;
+    margin-left: 10px;
+    font-weight: 100;
+    width: 50px;
+}
+nav ul li:hover {
+    border-bottom: 2px solid #3289BB;
+    width: 50px;
+}
+.search {
+    margin-left: 10px;
+    float: left;
+    margin-top: 9px;
+    height: 25px;
+    width: 200px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+}
+#search-btn {
+    width: 18px;
+    margin-top: 13px;
+    position: relative;
+    margin-left: -23px;
+}
+.advertisment {
+    margin: 0px auto auto auto;
+    width: 68%;
+    padding: 10px;
+    position: relative;
+}
+.advertisment p{
+    float: right;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #505050;
+}
+.advertisment img{
+    float: center;
+    width: 100%;
+}
+.news-section1 {
+    margin: 15px auto auto auto;
+    width: 85%;
+
+}
+.left-content {
+    float: left;
+    font-size: 22px;
+    color: #4a4a4a;
+}
+.right-content {
+    float: right;
+    font-size: 22px;
+    color: #8c8c8c;
+}
+.main-article {
+    margin-top: 10px;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 222px 200px 200px;
+    grid-template-columns: 1fr 270px 270px;
+    grid-gap: 5px;
+}
+.news1 img {
+    width: 100%;
+}
+.news1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.news2 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.news2 img ,.news3 img ,.news4 img,.news5 img{
+    width: 100%;
+}
+.category {
+    font-size: 10px;
+    margin-top: 10px;
+}
+.news-title {
+    width: 100%;
+    font-size: 13px;
+    margin-top: 7px;
+}
+.category-border {
+    border-left: 2px solid red;
+}
+.news-section2 {
+    margin: 0px auto auto auto;
+    width: 85%;
+
+    margin-top: -180px;
+    height: auto;
+
+}
+.news-cloumn {
+    display: grid;
+    grid-template-rows: 222px;
+    grid-template-columns: 270px 270px 270px 1fr;
+    grid-column-gap: 40px;
+
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+.news-cloumn img {
+    width: 300px;
+}
+
+.news-short {
+    font-size: 12px;
+}
+.news04 {
+    background-color: #F6F6F6;
+    height: 300px;
+    width: 300px;
+}
+.news04 p {
+    float: right;
+    float: right;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #505050;
+    padding: 10px 10px 0 0;
+}
+.news04 img{
+    width: auto;
+    margin-top: 10px;
+}
+.news-section3 {
+    margin: 0px auto auto auto;
+    width: 85%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #4C4C4C;
+    color: white;
+    height: auto;
+    margin-top: 50px;
+}
+.footer-content {
+    margin: 15px auto auto auto;
+    width: 85%;
+    padding: 30px 10px;
+
+}
+.footer-content p {
+    font-size: 22px;
+}
+.footer-menu ul {
+    margin: 20px 0 0 0;
+}
+.footer-menu ul li {
+    float: left;
+    margin-left: 130px;
+    list-style:none;
+}
+.footer-menu ul li p {
+    font-size: 13px;
+    line-height: 30px;
+}
+.vl1 {
+    border-left: 0.1px solid #8c8c8c;
+    height: 45px;
+    float: left;
+    margin: 8px 0 0 20px;
+}
+.sec-footer-menu {
+    margin:20px 0 0 0;
+}
+.sec-footer-menu ul li {
+    float: left;
+    list-style: none;
+    line-height: 20px;
+    font-weight: normal;
+}
+.sec-footer-menu ul li p {
+    font-size: 13px;
+    margin-right: 20px;
+}
+.sec-footer-menu p {
+    font-size: 13px;
+}
